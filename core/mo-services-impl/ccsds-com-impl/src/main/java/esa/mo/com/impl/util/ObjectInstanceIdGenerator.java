@@ -47,7 +47,7 @@ public class ObjectInstanceIdGenerator
    */
   public static ObjectInstanceIdGenerator getInstance()
   {
-    if (instance == null) {
+    if (instance == null) 
       instance = new ObjectInstanceIdGenerator();
     }
     return instance;
