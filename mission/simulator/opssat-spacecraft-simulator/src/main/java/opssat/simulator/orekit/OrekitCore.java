@@ -1056,7 +1056,7 @@ public class OrekitCore
         }
       }
     }
-    if (debug1) {
+    if (debug1)() {
       logger.log(Level.INFO, "Failed to find " + nodeDetectStr + " after [" + i + "] steps!");
     }
     return null;
